@@ -15,7 +15,7 @@ const getData = async () => {
     phones.forEach((phone) => {
       const col = document.createElement("div");
       col.className = "col-md-4 col-lg-3 my-4";
-      col.innerHTML = `        <div class="card"">
+      col.innerHTML = `        <div class="card border-info"">
       <img src="${phone.imageUrl}" class="card-img-top" alt="...">
       <div class="card-body">
       <h5 class="card-title">${phone.brand},${phone.name}</h5>
